@@ -1,0 +1,259 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+    color:#2F3043;
+}
+body {
+    background: #FFFFFF;
+    font-family: 'Secular One', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+navbar navbar-expand-xl {
+    background: #FCF4E8;
+}
+.pop {
+    background: #DEFBFB;
+    padding: 7px;
+    position: sticky;
+    text-decoration: none;
+    text-align: center;
+    color: #0d6277;
+}
+.jumbotron.jumbotron-fluid {
+    margin: 32px;
+    background: #67c3ef; /*#FCF4E8;*/
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 10px;
+    border-color: red;
+    padding: 20px 10px 10px 11px;
+}
+
+.form-inline {
+    display: inline-block;
+}
+
+.navbar-header.col {
+    padding: 0 !important;
+}
+
+.navbar {
+    background: #FCF4E8;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid #d6d6d6;
+    box-shadow: 0 0 4px rgba(0,0,0,.1);
+}
+
+.nav-link img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin: -8px 0;
+    float: left;
+    margin-right: 10px;
+}
+
+.navbar .navbar-brand {
+    color: #555;
+    padding-left: 0;
+    padding-right: 50px;
+    font-family: 'Merienda One', sans-serif;
+}
+
+    .navbar .navbar-brand i {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+
+
+.navbar .nav-item i {
+    font-size: 18px;
+}
+
+.navbar .dropdown-item i {
+    font-size: 16px;
+    min-width: 22px;
+}
+
+.navbar .nav-item.open > a {
+    background: none !important;
+}
+
+.navbar .dropdown-menu {
+    border-radius: 1px;
+    border-color: #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+
+    .navbar .dropdown-menu a {
+        color: #777;
+        padding: 8px 20px;
+        line-height: normal;
+    }
+
+        .navbar .dropdown-menu a:hover, .navbar .dropdown-menu a:active {
+            color: red;
+        }
+
+.navbar .dropdown-item .material-icons {
+    font-size: 21px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.navbar .badge {
+    color: #fff;
+    background: #f44336;
+    font-size: 11px;
+    border-radius: 20px;
+    position: absolute;
+    min-width: 10px;
+    padding: 4px 6px 0;
+    min-height: 18px;
+    top: 5px;
+}
+
+
+.navbar .active a, .navbar .active a:hover, .navbar .active a:focus {
+    background: transparent !important;
+    color: red;
+}
+
+.nav-item nav-link a:hover {
+    color: red;
+}
+.mb-3, .my-3 {
+    margin-bottom: 2rem !important;
+}
+.card {
+    background-color: #DEFBFB;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 20px;
+}
+.card-deck .card {
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    background: #DEFBFB;
+}
+.shadow {
+    background: #FCF4E8;
+    text-decoration:none;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 10px 10px 10px 30px;
+    margin: 20px 20px 20px 20px;
+    background-color: #DEFBFB; /*#FCF4E8;*/
+    border-radius: 10px;
+}
+.right img{
+    float:right;
+    margin:10px;
+}
+.imgholder img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.Wrapper {
+    width: 330px;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2F3043;
+    margin-bottom: 1.2rem;
+}
+
+.form input {
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+}
+
+.btn1{
+    color:white;
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    width: 90%;
+    background: rgba(17,107,143);
+}
+
+    button:hover {
+        background: rgba(17,107,143,0.877);
+    }
+
+input:focus {
+    border: 1px solid rgb(192,192,192);
+}
+
+.Terms {
+    margin-top: 0.2rem;
+}
+
+    .Terms input {
+        height: 1em;
+        width: 1em;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+
+    .Terms label {
+        font-size: 0.7rem;
+    }
+
+.Terms {
+    color: rgba(17, 107,143);
+    text-decoration: none;
+}
+
+.Member {
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #636363;
+}
+
+    .Member a {
+        color: rgb(17, 107,143);
+        text-decoration: none;
+    }
+
+
+@media (max-width: 1199px) {
+    .form-inline {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+}

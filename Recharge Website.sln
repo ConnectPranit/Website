@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recharge Website", "Recharge Website\Recharge Website.csproj", "{B7A43625-A9C6-4F76-9869-7957F11AA1F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7A43625-A9C6-4F76-9869-7957F11AA1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A43625-A9C6-4F76-9869-7957F11AA1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A43625-A9C6-4F76-9869-7957F11AA1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A43625-A9C6-4F76-9869-7957F11AA1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D482515-BA6E-4A01-884F-23397F5EE3D8}
+	EndGlobalSection
+EndGlobal
